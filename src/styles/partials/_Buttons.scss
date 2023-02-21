@@ -176,3 +176,20 @@ color:rgb(240, 246, 252);
 background-color: rgb(13, 13, 13);
 color:rgb(240, 246, 252);
 }
+
+.button-login{
+  border-radius: 6px;
+  background-color: rgb(217, 54, 68);
+  color: rgb(255, 255, 255);
+  border: none;
+  width: 100%;
+  padding: 6px;
+}
+
+.button-login:hover{
+  box-shadow: 0 0 10px #1b58b4,
+  0 0 40px #1b58b4,
+  0 0 80px #1b58b4;
+background-color: rgb(13, 13, 13);
+color:rgb(240, 246, 252);
+}

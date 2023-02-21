@@ -87,7 +87,7 @@ function Login() {
             Register here!
           </Link>
         </p>
-        <button className="btn">
+        <button className="button-login">
           {submitting ? "Logging in..." : "Login"}
         </button>
       </Form>

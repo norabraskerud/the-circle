@@ -112,7 +112,7 @@ export default function SignUp() {
             Sign in here!
           </Link>
         </p>
-        <button className="btn">
+        <button className="button-login">
           {submitting ? "Signing in..." : "Sign up"}
         </button>
       </Form>
