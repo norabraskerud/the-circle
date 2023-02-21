@@ -1,3 +1,51 @@
+# Social media Front-end
+## Intro
+This is a Front-end for the Social Media API provided by Noroff.
+
+## Installation
+Download this repository with your preferred method.
+If you downloaded the zip-file, please extract it.
+
+To install dependencies, run the command: npm install
+To build the front-end. run the command: npm run build
+
+
+
+
+
+
+
+
+
+## When logged in, a user can:
+
+ - Upload a profile and banner image, which is displayed on the user's own profile.
+ - Change their profile and banner images from their profile page.
+ - Create and publish a post that will be displayed in the main feed.
+ - Edit their own post.
+ - Delete their own post.
+ - See a list of posts in the main feed.
+ - Open a single post to see reactions and comments.
+ - Post a comment to any post.
+ - React with emojis to any post.
+ - Display a list of other app users.
+ - Visit another user's profile and see their following numbers and posts.
+ - Follow and unfollow other users.
+ - Log out of the app.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

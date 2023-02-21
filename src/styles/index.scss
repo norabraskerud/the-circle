@@ -1,0 +1,15 @@
+$theme-colors: (
+  primary: rgb(217, 217, 217),
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "partials/Feed";
+@import "partials/MyProfile";
+@import "partials/Nav";
+@import "partials/ProfileFeed";
+@import "partials/Typeography";
+@import "partials/Buttons";
+@import "partials/PageLayout";
+@import "partials/Form";
+@import "partials/Footer";

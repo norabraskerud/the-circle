@@ -1,0 +1,37 @@
+.form {
+  background-color: rgb(13, 13, 13);
+  border-width: 1px;
+  border-color: rgb(217, 217, 217);
+  border-radius: 6px;
+  padding: 25px;
+  margin: 50px;
+}
+
+.formInput {
+  background-color: rgb(13, 13, 13);
+  color: rgb(255, 255, 255);
+}
+
+.formInput:focus {
+  background-color: rgb(13, 13, 13);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px #1b58b4,
+                0 0 40px #1b58b4,
+                0 0 80px #1b58b4;
+}
+
+.form-control {
+  background-color: rgb(13, 13, 13);
+  border-width: 1px;
+  border-color: none;
+  border-radius: 6px;
+}
+
+.formError {
+  color: rgb(218, 47, 38);
+}
+
+.editPost {
+  float: right;
+}
+
