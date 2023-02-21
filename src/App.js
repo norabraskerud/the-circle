@@ -1,6 +1,5 @@
 import "./styles/index.scss";
 import { Route, Routes } from "react-router-dom";
-import Footer from "./components/layout/Footer";
 
 import Home from "./components/pages/Home";
 import Register from "./components/pages/Register";
@@ -14,7 +13,6 @@ import CreatePost from "./components/pages/CreatePost";
 import EditPost from "./components/pages/EditPost";
 import EditProfile from "./components/pages/EditProfile";
 import TheCircle from "./components/pages/TheCircle";
-
 
 
 
