@@ -4,6 +4,8 @@
 
 This is a Front-end for the Social Media API provided by Noroff.
 
+The Circle is a social media platform designed for you to be able to share everything from your everyday life. This is the platform for you who are already in a circle or who have never participated in a circle. Here everyone is included and welcome to participate in the circle.
+
 ## Installation
 
 Download this repository with your preferred method.
