@@ -66,6 +66,7 @@ export default function CreatePost() {
         <div className='index--hero'>
           <img src={HeroImage} alt="the circle hero"></img>
     </div>
+    <h2 class="TellUs">Tell us a story:</h2>
         <Form className="form" onSubmit={handleSubmit(onSubmit)}>
           {createError && <p className="formError">{createError}</p>}
           <Form.Group className="mb-3" controlId="formGroupEmail">
@@ -114,6 +115,7 @@ export default function CreatePost() {
             {submitting ? "Creating..." : "Create"}
           </button>
         </Form>
+
       </div>
     </div>
   );

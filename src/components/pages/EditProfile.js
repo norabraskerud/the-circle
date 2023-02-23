@@ -80,7 +80,7 @@ export default function EditProfile() {
     <div>
       <NavBar />
       <div className="container">
-        <h1>Make changes to your Profile</h1>
+        <h1>Edit</h1>
         {data.avatar === null || data.avatar === "" ? (
           <img src={profile} alt={data.name} className="editAvatar" />
         ) : (
@@ -96,7 +96,9 @@ export default function EditProfile() {
           <h3>{data.email}</h3>
         </div>
         </div>
-
+<br></br>
+<br></br>
+        <h1 class="changeImgHead">Change image or avatar</h1>
         <Form className="form" onSubmit={handleSubmit(onSubmit)}>
           {createError && <p className="formError">{createError}</p>}
           <Form.Group className="mb-3" controlId="formGroupEmail">
@@ -125,8 +127,61 @@ export default function EditProfile() {
             {submitting ? "Saving..." : "Save changes"}
           </button>
         </Form>
+        
+        <h1 class="createPost">Create Post</h1>
+        <Form className="form" onSubmit={handleSubmit(onSubmit)}>
+          {createError && <p className="formError">{createError}</p>}
+          <Form.Group className="mb-3" controlId="formGroupEmail">
+            <Form.Label>Title</Form.Label>
+            <Form.Control
+              className="formInput"
+              placeholder="Enter Title"
+              {...register("title")}
+            />
+            {errors.title && (
+              <p className="formError">{errors.title.message}</p>
+            )}
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formGroupEmail">
+            <Form.Label>Tags</Form.Label>
+            <Form.Control
+              className="formInput"
+              placeholder="Tags"
+              {...register("tag")}
+            />
+            {errors.tag && <p className="formError">{errors.tag.message}</p>}
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formGroupPassword">
+            <Form.Label>Featured image</Form.Label>
+            <Form.Control
+              className="formInput"
+              placeholder="Image Link"
+              {...register("media")}
+            />
+            {errors.media && (
+              <p className="formError">{errors.media.message}</p>
+            )}
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formGroupPassword">
+            <Form.Label>Body</Form.Label>
+            <Form.Control
+              className="formInput"
+              placeholder="Enter Message"
+              as="textarea"
+              style={{ height: "100px" }}
+              {...register("body")}
+            />
+            {errors.body && <p className="formError">{errors.body.message}</p>}
+          </Form.Group>
+          <button className="btn-create" variant="primary">
+            {submitting ? "Creating..." : "Create"}
+          </button>
+        </Form>
+
+
       </div>
       {error && <div>Error</div>}
     </div>
   );
 }
+
