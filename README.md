@@ -1,50 +1,62 @@
 # Social media Front-end
+
 ## Intro
+
 This is a Front-end for the Social Media API provided by Noroff.
 
 ## Installation
+
 Download this repository with your preferred method.
 If you downloaded the zip-file, please extract it.
 
 To install dependencies, run the command: npm install
 To build the front-end. run the command: npm run build
 
-
-
-
-
-
-
-
-
 ## When logged in, a user can:
 
- - Upload a profile and banner image, which is displayed on the user's own profile.
- - Change their profile and banner images from their profile page.
- - Create and publish a post that will be displayed in the main feed.
- - Edit their own post.
- - Delete their own post.
- - See a list of posts in the main feed.
- - Open a single post to see reactions and comments.
- - Post a comment to any post.
- - React with emojis to any post.
- - Display a list of other app users.
- - Visit another user's profile and see their following numbers and posts.
- - Follow and unfollow other users.
- - Log out of the app.
+- Upload a profile and banner image, which is displayed on the user's own profile.
+- Change their profile and banner images from their profile page.
+- Create and publish a post that will be displayed in the main feed.
+- Edit their own post.
+- Delete their own post.
+- See a list of posts in the main feed.
+- Open a single post to see reactions and comments.
+- Post a comment to any post.
+- React with emojis to any post.
+- Display a list of other app users.
+- Visit another user's profile and see their following numbers and posts.
+- Follow and unfollow other users.
+- Log out of the app.
 
+## Getting Started
 
+Installing:
 
+- Clone the repo with GitHub Desktop.
+- Open the repo in Visual Studio Code.
 
+Running:
 
+- To run the app, run the following commands in VS Code
 
+Terminal:
 
+npm install
+and then,
 
+npm run start
+The app will be running through your localhost on port 3000.
 
+#Access
 
+Login
 
-
-
+- Enter a valid stud.noroff.no or noroff.no email adddress.
+- Enter password (the password must be at least 8 characters).
+- Register
+  Enter name (the name value must not contain punctuation symbols apart from underscore).
+  Enter a valid stud.noroff.no or noroff.no email address.
+  Enter password (the password must be at least 8 characters).
 
 # Getting Started with Create React App
 
