@@ -31,10 +31,10 @@ export default function Emoji({ data }) {
 
   return (
     <div class="reactbtn">
-      <button className="feedReactBtn" onClick={toggleEmojiPanel}>
+      <button className="feedReactBtn"  onClick={toggleEmojiPanel }>
         React to post
       </button>
-      {showEmojiPanel && <EmojiPicker onEmojiClick={onClick} />}
+      {showEmojiPanel && <EmojiPicker height="28em" width="100%" onEmojiClick={onClick} />}
     </div>
   );
 }

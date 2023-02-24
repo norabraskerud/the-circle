@@ -61,6 +61,7 @@
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 6px;
+  width: 100%;
 }
 
 .feedReactBtn:hover {
@@ -82,8 +83,9 @@
 
 
 .reactbtn{
-  margin-top:20px;
   text-align: center;
+  border-radius: 6px;
+  
 }
 
 .btn-comment{
