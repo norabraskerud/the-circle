@@ -81,7 +81,7 @@ function Post() {
               ))}
               <div className="reaction">
                 {data.reactions.map((reaction) => (
-                  <Card.Text className="emoji" height="100%" width="15em" >
+                  <Card.Text className="emoji" >
                     {reaction.symbol}
                     {data.reactions.length < 1 ? `0 reactions` : ``}
                   </Card.Text>

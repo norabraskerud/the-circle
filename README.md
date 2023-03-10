@@ -1,5 +1,7 @@
 # Social media Front-end
 
+![image](/src/images/img1.png)
+
 ## Intro
 
 This is a Front-end for the Social Media API provided by Noroff.
